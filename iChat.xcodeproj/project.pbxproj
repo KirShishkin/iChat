@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981C8482266A3FF3002271F4 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C8481266A3FF3002271F4 /* ButtonFormView.swift */; };
+		981C8484266A4655002271F4 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C8483266A4655002271F4 /* UIStackView + Extension.swift */; };
+		981C8486266A4C69002271F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C8485266A4C69002271F4 /* SignUpViewController.swift */; };
+		981C8488266A508D002271F4 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C8487266A508D002271F4 /* OneLineTextField.swift */; };
+		981C848A266A7E82002271F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C8489266A7E82002271F4 /* LoginViewController.swift */; };
+		986F91B22665232E00433849 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F91B12665232E00433849 /* UIButton + Extension.swift */; };
+		986F91B426652A2200433849 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F91B326652A2200433849 /* UIFont + Extension.swift */; };
+		986F91B626652C9300433849 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F91B526652C9300433849 /* UIColor + Extension.swift */; };
+		986F91B826652F5500433849 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F91B726652F5500433849 /* UILabel + Extension.swift */; };
+		986F91BA266533BA00433849 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F91B9266533BA00433849 /* UIImageView + Extension.swift */; };
+		98E7E9ED267505C900D9C61A /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E9EC267505C900D9C61A /* SetupProfileViewController.swift */; };
+		98E7E9EF26750C2A00D9C61A /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E9EE26750C2A00D9C61A /* AddPhotoView.swift */; };
+		98E7E9F126751B2D00D9C61A /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E9F026751B2D00D9C61A /* SegmentedControl + Extension.swift */; };
+		98F4A2AB2664EE6300BFFEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4A2AA2664EE6300BFFEAA /* AppDelegate.swift */; };
+		98F4A2AD2664EE6300BFFEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4A2AC2664EE6300BFFEAA /* SceneDelegate.swift */; };
+		98F4A2AF2664EE6300BFFEAA /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4A2AE2664EE6300BFFEAA /* AuthViewController.swift */; };
+		98F4A2B42664EE6600BFFEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F4A2B32664EE6600BFFEAA /* Assets.xcassets */; };
+		98F4A2B72664EE6600BFFEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F4A2B52664EE6600BFFEAA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		981C8481266A3FF3002271F4 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		981C8483266A4655002271F4 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		981C8485266A4C69002271F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		981C8487266A508D002271F4 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		981C8489266A7E82002271F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		986F91B12665232E00433849 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		986F91B326652A2200433849 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		986F91B526652C9300433849 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		986F91B726652F5500433849 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		986F91B9266533BA00433849 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		98E7E9EC267505C900D9C61A /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		98E7E9EE26750C2A00D9C61A /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		98E7E9F026751B2D00D9C61A /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
+		98F4A2A72664EE6300BFFEAA /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F4A2AA2664EE6300BFFEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98F4A2AC2664EE6300BFFEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98F4A2AE2664EE6300BFFEAA /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		98F4A2B32664EE6600BFFEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F4A2B62664EE6600BFFEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98F4A2B82664EE6600BFFEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F4A2A42664EE6300BFFEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981C847F266A3D23002271F4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				986F91B9266533BA00433849 /* UIImageView + Extension.swift */,
+				986F91B726652F5500433849 /* UILabel + Extension.swift */,
+				986F91B526652C9300433849 /* UIColor + Extension.swift */,
+				986F91B326652A2200433849 /* UIFont + Extension.swift */,
+				986F91B12665232E00433849 /* UIButton + Extension.swift */,
+				981C8483266A4655002271F4 /* UIStackView + Extension.swift */,
+				98E7E9F026751B2D00D9C61A /* SegmentedControl + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		981C8480266A3D2E002271F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98E7E9EE26750C2A00D9C61A /* AddPhotoView.swift */,
+				981C8487266A508D002271F4 /* OneLineTextField.swift */,
+				981C8481266A3FF3002271F4 /* ButtonFormView.swift */,
+				981C847F266A3D23002271F4 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		98F4A29E2664EE6300BFFEAA = {
+			isa = PBXGroup;
+			children = (
+				98F4A2A92664EE6300BFFEAA /* iChat */,
+				98F4A2A82664EE6300BFFEAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F4A2A82664EE6300BFFEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F4A2A72664EE6300BFFEAA /* iChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F4A2A92664EE6300BFFEAA /* iChat */ = {
+			isa = PBXGroup;
+			children = (
+				98F4A2AA2664EE6300BFFEAA /* AppDelegate.swift */,
+				98F4A2AC2664EE6300BFFEAA /* SceneDelegate.swift */,
+				98F4A2AE2664EE6300BFFEAA /* AuthViewController.swift */,
+				981C8485266A4C69002271F4 /* SignUpViewController.swift */,
+				981C8489266A7E82002271F4 /* LoginViewController.swift */,
+				98E7E9EC267505C900D9C61A /* SetupProfileViewController.swift */,
+				981C8480266A3D2E002271F4 /* Extensions */,
+				98F4A2B32664EE6600BFFEAA /* Assets.xcassets */,
+				98F4A2B52664EE6600BFFEAA /* LaunchScreen.storyboard */,
+				98F4A2B82664EE6600BFFEAA /* Info.plist */,
+			);
+			path = iChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F4A2A62664EE6300BFFEAA /* iChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F4A2BB2664EE6600BFFEAA /* Build configuration list for PBXNativeTarget "iChat" */;
+			buildPhases = (
+				98F4A2A32664EE6300BFFEAA /* Sources */,
+				98F4A2A42664EE6300BFFEAA /* Frameworks */,
+				98F4A2A52664EE6300BFFEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChat;
+			productName = iChat;
+			productReference = 98F4A2A72664EE6300BFFEAA /* iChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F4A29F2664EE6300BFFEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					98F4A2A62664EE6300BFFEAA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 98F4A2A22664EE6300BFFEAA /* Build configuration list for PBXProject "iChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F4A29E2664EE6300BFFEAA;
+			productRefGroup = 98F4A2A82664EE6300BFFEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F4A2A62664EE6300BFFEAA /* iChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F4A2A52664EE6300BFFEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F4A2B72664EE6600BFFEAA /* LaunchScreen.storyboard in Resources */,
+				98F4A2B42664EE6600BFFEAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F4A2A32664EE6300BFFEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981C8488266A508D002271F4 /* OneLineTextField.swift in Sources */,
+				981C8486266A4C69002271F4 /* SignUpViewController.swift in Sources */,
+				986F91B426652A2200433849 /* UIFont + Extension.swift in Sources */,
+				98F4A2AF2664EE6300BFFEAA /* AuthViewController.swift in Sources */,
+				98E7E9ED267505C900D9C61A /* SetupProfileViewController.swift in Sources */,
+				98F4A2AB2664EE6300BFFEAA /* AppDelegate.swift in Sources */,
+				981C8484266A4655002271F4 /* UIStackView + Extension.swift in Sources */,
+				98E7E9EF26750C2A00D9C61A /* AddPhotoView.swift in Sources */,
+				981C8482266A3FF3002271F4 /* ButtonFormView.swift in Sources */,
+				986F91B826652F5500433849 /* UILabel + Extension.swift in Sources */,
+				98E7E9F126751B2D00D9C61A /* SegmentedControl + Extension.swift in Sources */,
+				986F91BA266533BA00433849 /* UIImageView + Extension.swift in Sources */,
+				986F91B626652C9300433849 /* UIColor + Extension.swift in Sources */,
+				98F4A2AD2664EE6300BFFEAA /* SceneDelegate.swift in Sources */,
+				981C848A266A7E82002271F4 /* LoginViewController.swift in Sources */,
+				986F91B22665232E00433849 /* UIButton + Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98F4A2B52664EE6600BFFEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F4A2B62664EE6600BFFEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F4A2B92664EE6600BFFEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98F4A2BA2664EE6600BFFEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F4A2BC2664EE6600BFFEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37V29Z8CPD;
+				INFOPLIST_FILE = iChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KirillShishkin.iChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F4A2BD2664EE6600BFFEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37V29Z8CPD;
+				INFOPLIST_FILE = iChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KirillShishkin.iChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F4A2A22664EE6300BFFEAA /* Build configuration list for PBXProject "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F4A2B92664EE6600BFFEAA /* Debug */,
+				98F4A2BA2664EE6600BFFEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F4A2BB2664EE6600BFFEAA /* Build configuration list for PBXNativeTarget "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F4A2BC2664EE6600BFFEAA /* Debug */,
+				98F4A2BD2664EE6600BFFEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F4A29F2664EE6300BFFEAA /* Project object */;
+}
